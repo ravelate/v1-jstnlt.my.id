@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 import Waypoints from "../dust/waypoints";
 
 export default function About() {
-  let umur = sAge("Nov 16 2007");
+  let umur = sAge("Dec 16 2000");
   let [gh, setGh] = useState('Fetching...');
   useEffect(() => {
     (async() => {
       try {
-        const res = await fetch("https://api.github.com/users/JastinXyz");
+        const res = await fetch("https://api.github.com/users/ravelate");
         const data = await res.json();
         setGh(data);
       } catch {
@@ -65,7 +65,7 @@ export default function About() {
                   data-aos-duration="1000"
                 ></div>
                 <p className="mt-2">
-                  {"Welcome to my digital garden where i share what i'm learning about programming or technology related. Becoming a better developer and growing a career in tech. Let`s hang out on LinkedIn"}
+                  {`Welcome to my digital garden where i share what i'm learning about programming or technology related. Becoming a better developer and growing a career in tech. Let's hang out on LinkedIn`}
                 </p>
                 <p className="mt-5">
                 I grew up in a small village located in Malang, Jawa Timur Currently study in University of Muhammadiyah Malang with Bachelor's degree in Informatics (Computer Science).
