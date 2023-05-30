@@ -122,12 +122,12 @@ export default function Projects() {
               <div className="text-center mt-20">
                 <a
                   className="btn btn-wide"
-                  href="https://github.com/JastinXyz?tab=repositories"
+                  href="https://github.com/ravelate?tab=repositories"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaGithub className="mr-2 w-5 h-5" />
-                  View all my Porjects. <FaAngleRight className="ml-2" />
+                  View all my Projects. <FaAngleRight className="ml-2" />
                 </a>
               </div>
             </section>
