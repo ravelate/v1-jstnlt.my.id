@@ -10,12 +10,12 @@ const nextConfig = {
       },
       {
         source: "/facebook",
-        destination: "",
+        destination: "https://google.com",
         permanent: true,
       },
       {
         source: "/youtube",
-        destination: "",
+        destination: "https://google.com",
         permanent: true,
       },
       {
@@ -25,7 +25,7 @@ const nextConfig = {
       },
       {
         source: "/npm",
-        destination: "",
+        destination: "https://google.com",
         permanent: true
       }
     ];
