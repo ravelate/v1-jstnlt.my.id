@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>JstnLT — Home</title>
+        <title>Fian — Home</title>
       </Head>
       <Component {...pageProps} />
       <Analytics />

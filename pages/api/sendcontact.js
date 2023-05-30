@@ -22,8 +22,8 @@ export default async function handler(req, res) {
         .setDescription(req.body.msg);
 
       try {
-        await Hook.send(msg);
-        await Hook.send(isi);
+        // await Hook.send(msg);
+        // await Hook.send(isi);
         res.status(200).json({
           type: "success",
           message: "Your message successfully sended!",

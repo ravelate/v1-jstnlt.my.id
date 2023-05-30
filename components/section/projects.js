@@ -5,92 +5,60 @@ import { clsx } from "clsx";
 import Waypoints from "../dust/waypoints";
 
 export default function Projects() {
-    let gh = "https://github.com/JastinXyz";
+    let gh = "https://github.com/ravelate";
     let [projects] = useState([
       {
-        name: "Data Siswa",
+        name: "Jatinom Monitoring Apps",
         description:
-          "Sebuah project Laravel pertama saya yang menerapkan sistem CRUD di dalamnya.",
+          "Pengembangan proyek Sistem Informasi Monitoring Kandang Ayam berbasis IOT (web-based dan mobile-app)",
         isLeft: true,
-        link: "/data-siswa",
+        link: "/jatinom",
         icon: {
           name: FaLaravel,
           fill: clsx("group-hover:fill-[#FF2D20]"),
         },
         image: {
-          src: "/img/projects/siswa-crud.webp",
-          alt: "Siswa CRUD",
+          src: "/img/projects/Jatinom.png",
+          alt: "Jatinom",
           width: 448,
           height: 148,
         },
       },
       {
-        name: "Discord Bot Landing Page",
+        name: "Akrab - Communication better",
         description:
-          "A landing page source code for the Discord bot (but you can use it for any kind of landing page)",
+          "Akrab is an android-based learning application that is intended for people who are deaf and mute, as a medium for people with disabilities as well as for the general public who care about the importance of sign language learning.",
         isLeft: false,
-        link: "/discord-bot-landing-page-web",
+        link: "/akrab",
         icon: {
           name: FaHtml5,
           fill: clsx("group-hover:fill-[#E96228]"),
         },
         image: {
-          src: "/img/projects/dcweb.webp",
-          alt: "Discord Bot Landing Page",
+          src: "/img/projects/Akrab.png",
+          alt: "Akrab",
           width: 500,
           height: 250,
         },
       },
       {
-        name: "Simple RPS",
+        name: "Teaboo - Teacher Book",
         description:
-          "A website-based Rock Paper Scissors game with simple design.",
+          "Teaboo application offers a convenient mobile solution for school personnel, especially educators, enabling them to access and utilize it flexibly. With this application, educators can take attendance, set reminders for assignments and classes, provide daily grades and assessments, and share materials online for evaluation purposes, benefiting both students and teachers alike. ",
         isLeft: true,
-        link: "/simple-rps",
+        link: "/Teaboo",
         icon: {
           name: FaHtml5,
           fill: clsx("group-hover:fill-[#E96228]"),
         },
         image: {
-          src: "/img/projects/rps.webp",
+          src: "/img/projects/teaboo.png",
           alt: "Simple RPS",
           width: 448,
           height: 148,
         },
       },
-      {
-        name: "whatscode.js",
-        description:
-          "whatscode.js is a package to create Whatsapp bots easily and quickly, even coding experience is not really needed...",
-        isLeft: false,
-        link: "/discord-bot-landing-page-web",
-        icon: {
-          name: FaNodeJs,
-          fill: clsx("group-hover:fill-[#689F63]"),
-        },
-        image: {
-          src: "/img/projects/wcode.webp",
-          alt: "whatscode.js logo",
-          layout: "fill",
-        },
-      },
-      {
-        name: "Gempa Bot",
-        description:
-          "A Discord Bot to detect the latest earthquake in Indonesia.",
-        isLeft: true,
-        link: "/gempa-bot",
-        icon: {
-          name: FaNodeJs,
-          fill: clsx("group-hover:fill-[#689F63]"),
-        },
-        image: {
-          src: "/img/projects/gempabot.webp",
-          alt: "gempa bot",
-          width: 448,
-          height: 148,
-        },
-      },
+     
     ]);
     return (
       <>

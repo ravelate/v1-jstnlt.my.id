@@ -5,27 +5,27 @@ const nextConfig = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/JastinXyz",
+        destination: "https://github.com/ravelate",
         permanent: true,
       },
       {
         source: "/facebook",
-        destination: "https://web.facebook.com/jastin.lt",
+        destination: "",
         permanent: true,
       },
       {
         source: "/youtube",
-        destination: "https://www.youtube.com/c/JastinCh",
+        destination: "",
         permanent: true,
       },
       {
         source: "/instagram",
-        destination: "https://instagram.com/jstn.lt",
+        destination: "https://instagram.com/fianardeviants",
         permanent: true
       },
       {
         source: "/npm",
-        destination: "https://npmjs.com/~jastinlt",
+        destination: "",
         permanent: true
       }
     ];

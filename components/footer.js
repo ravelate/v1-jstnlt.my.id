@@ -17,7 +17,7 @@ export default function Footer() {
             by{" "}
             <Logo />
             <br />
-            &copy; {new Date().getFullYear()} Copyright JstnLT.
+            &copy; {new Date().getFullYear()} @Copyright 2023.
           </p>
         </div>
         <div>

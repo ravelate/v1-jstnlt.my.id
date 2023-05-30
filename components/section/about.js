@@ -57,7 +57,7 @@ export default function About() {
               </div>
               <div className="ml-10 mr-10 pt-10">
                 <h1 className="text-3xl font-bold leading-9" data-aos="fade-up">
-                  About Me
+                  Hi there, I'm Fian.
                 </h1>
                 <div
                   className="bg-[#6C63FF] w-[150px] h-[5px]"
@@ -65,27 +65,13 @@ export default function About() {
                   data-aos-duration="1000"
                 ></div>
                 <p className="mt-2">
-                  {`I live in Purwokerto, Indonesia. My full name is Jastin
-                  Linggar Tama, just call me Jastin. I'm ${umur} years old. A Software
-                  Engineering student, I have known Programming since 2020 and
-                  am quite familiar with HTML, CSS, Javascript and several other
-                  languages ​​& frameworks.`}
+                  {"Welcome to my digital garden where i share what i'm learning about programming or technology related. Becoming a better developer and growing a career in tech. Let`s hang out on LinkedIn"}
                 </p>
                 <p className="mt-5">
-                  A Little Story, In the past, I preferred to learn about Back
-                  End but when I got to know Front End frameworks like NextJs, I
-                  think now I prefer to learn about Front End. But I&apos;m also
-                  learning New Things about Back End in PHP now. I don&apos;t
-                  know, I&apos;m a person who likes to learn new things but
-                  rarely takes it seriously.
+                I grew up in a small village located in Malang, Jawa Timur Currently study in University of Muhammadiyah Malang with Bachelor's degree in Informatics (Computer Science).
                 </p>
                 <p className="mt-5">
-                  One more thing, I have created{" "}
-                  <span className="font-bold">{gh.public_repos}</span> public
-                  repository on my Github. Various repositories such as
-                  templates or even just a package to make things easier. There
-                  are several serious projects but now they are rarely developed
-                  due to conflicts with school work.
+                I love making tools are user-friendly, simple and delightful. For now I'm focusing on Mobile Developer (Android Native & Multiplatform) to create wonderful things.
                 </p>
                 {/* <div class="tooltip tooltip-open tooltip-right mt-5" data-tip={`${gh.followers} Followers, ${gh.following} Following`}>
                 <button class="btn"><FaGithub className="mr-2 w-5 h-5" /> Github</button>
