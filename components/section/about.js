@@ -57,7 +57,7 @@ export default function About() {
               </div>
               <div className="ml-10 mr-10 pt-10">
                 <h1 className="text-3xl font-bold leading-9" data-aos="fade-up">
-                  Hi there, I'm Fian.
+                  Hi there, I&apos;m Fian.
                 </h1>
                 <div
                   className="bg-[#6C63FF] w-[150px] h-[5px]"
@@ -65,13 +65,13 @@ export default function About() {
                   data-aos-duration="1000"
                 ></div>
                 <p className="mt-2">
-                  {`Welcome to my digital garden where i share what i'm learning about programming or technology related. Becoming a better developer and growing a career in tech. Let's hang out on LinkedIn`}
+                  Welcome to my digital garden where i share what i&apos;m learning about programming or technology related. Becoming a better developer and growing a career in tech. Let&apos;s hang out on LinkedIn
                 </p>
                 <p className="mt-5">
-                I grew up in a small village located in Malang, Jawa Timur Currently study in University of Muhammadiyah Malang with Bachelor's degree in Informatics (Computer Science).
+                I grew up in a small village located in Malang, Jawa Timur Currently study in University of Muhammadiyah Malang with Bachelor&apos;s degree in Informatics (Computer Science).
                 </p>
                 <p className="mt-5">
-                I love making tools are user-friendly, simple and delightful. For now I'm focusing on Mobile Developer (Android Native & Multiplatform) to create wonderful things.
+                I love making tools are user-friendly, simple and delightful. For now I&apos;m focusing on Mobile Developer (Android Native & Multiplatform) to create wonderful things.
                 </p>
                 {/* <div class="tooltip tooltip-open tooltip-right mt-5" data-tip={`${gh.followers} Followers, ${gh.following} Following`}>
                 <button class="btn"><FaGithub className="mr-2 w-5 h-5" /> Github</button>
